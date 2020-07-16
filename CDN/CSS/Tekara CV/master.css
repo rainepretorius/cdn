@@ -1,6 +1,6 @@
 /*CSS for links  pre click*/
 a:link {
-    color: #0e9aa7;
+    color: #24a19c;
 }
 
 /*CSS Links clicked*/
@@ -9,19 +9,19 @@ a:visited {
 }
 
 a:hover {
-  color: #43d8c9;
+  color: #1dd3bd;
 }
 
 /* CSS for the body */
 body {
-  background-color: #ffecc7;
+  background-color: #ffc7c7;
   margin: 0;
   font-size: 1.29em;
 }
 
 /*CSS for h1*/
 h1 {
-  color: #ec823a;
+  color: #14b1ab;
   text-decoration: underline;
   font-family: 'Cookie', cursive;
   font-size: 100px;
@@ -29,7 +29,7 @@ h1 {
 
 /*CSS for h2*/
 h2 {
-  color: #ec823a;
+  color: #14b1ab;
   text-decoration: underline;
   font-family: 'Merriweather', serif;
   font-size: 1.9rem;
@@ -37,7 +37,7 @@ h2 {
 
 /*CSS for h3*/
 h3 {
-  color: #ec823a;
+  color: #14b1ab;
   text-decoration: underline;
   font-family: 'Merriweather', serif;
 }
@@ -59,7 +59,7 @@ ul {
 
 /*CSS for buttons */
 .button {
-  background-color: #f5b971;
+  background-color: #df5e88;
   border: none;
   color: white;
   text-decoration: none;
@@ -71,7 +71,7 @@ ul {
 
 /*CSS for hovering over button*/
 .button:hover {
-  background-color: #ff9c71;
+  background-color: #df5e88;
 }
 
 /*CSS for copyright*/
@@ -93,7 +93,7 @@ ul {
 
 /*CSS for the footer*/
 .footer {
-  background-color: #ecb390;
+  background-color: #fe91ca;
   height: 180px;
 }
 
@@ -105,7 +105,7 @@ ul {
   left: 40px;
   top: 10px;
   display: inline-block;
-  background-color: #ecb390;
+  background-color: #fe91ca;
 }
 
 /*Instagram 2*/
@@ -115,7 +115,7 @@ ul {
   position: relative;
   left: 80px;
   top: 10px;
-  background-color: #ecb390;
+  background-color: #fe91ca;
   z-index: 1;
 }
 
@@ -128,7 +128,7 @@ ul {
 .mail {
   height: 40px;
   width: 40px;
-  background-color: #ecb390;
+  background-color: #fe91ca;
   position: relative;
   top: 10px;
   left: 80px;
@@ -157,7 +157,7 @@ ul {
 
 /*CSS for the top container*/
 .top {
-  background-color: #f5b971;
+  background-color: #df5e88;
   height: 300px;
    width : auto;
 }
