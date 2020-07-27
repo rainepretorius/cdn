@@ -59,7 +59,7 @@ ul {
 
 /*CSS for buttons */
 .button {
-  background-color: #df5e88;
+  background-color: #ea9a96;
   border: none;
   color: white;
   text-decoration: none;
@@ -71,7 +71,7 @@ ul {
 
 /*CSS for hovering over button*/
 .button:hover {
-  background-color: #df5e88;
+  background-color: #ea9a96;
 }
 
 /*CSS for copyright*/
@@ -157,7 +157,7 @@ ul {
 
 /*CSS for the top container*/
 .top {
-  background-color: #df5e88;
+  background-color: #ea9a96;
   height: 300px;
    width : auto;
 }
