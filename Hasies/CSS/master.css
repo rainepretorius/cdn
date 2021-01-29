@@ -1,0 +1,32 @@
+body {
+  background-image: url("/static/Images/background.jpg");
+  align-content: center;
+  align-items: center;
+  font-size: large;
+  align-self: center;
+  margin: 0px;
+  border: 0px;
+}
+
+.frm {
+  block-size: auto;
+  background: transparent;
+  alignment: center;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+}
+
+input {
+  size: 200em;
+  border-bottom: 55px;
+  border-top: 55px;
+  border-left: 55px;
+  border-right: 55px;
+  border-color: black;
+}
+
+#oggend {
+  margin-left: auto;
+  margin-right: auto;
+}
