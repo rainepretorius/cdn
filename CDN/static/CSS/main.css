@@ -1,0 +1,299 @@
+.supernova {
+  background-color: #ffffff;
+  background-color: #f5f5f5;
+}
+
+.supernova body {
+  background-color: transparent;
+}
+
+/*
+@width30: (unit(@formWidth, px) + 60px);
+@width60: (unit(@formWidth, px)+ 120px);
+@width90: (unit(@formWidth, px)+ 180px);
+*/
+/* | */
+@media screen and (min-widtfh: 480px) {
+  .supernova .form-all {
+    border: 1px solid #dcdcdc;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.form-all {
+  font-size: 14px;
+}
+
+.form-label-left {
+  display: inline-block;
+  white-space: normal;
+  float: left;
+  text-align: left;
+}
+
+.form-label-right {
+  display: inline-block;
+  white-space: normal;
+  float: left;
+  text-align: right;
+}
+
+.form-label-top {
+  white-space: normal;
+  display: block;
+  float: none;
+  text-align: left;
+}
+
+.form-label {
+  white-space: normal;
+}
+
+.form-all:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.form-all {
+  font-family: "Lucida Grande", sans-serif;
+}
+
+.form-all {
+  width: 690px;
+}
+
+.form-all {
+  list-style: none;
+  list-style-position: outside;
+  margin: 0px;
+  font-family: Verdana;
+
+  font-size: 12px .form-line .form-radio-item:not(#foo) .form-radio-other+label, .form-line .form-checkbox-item .form-checkbox-other+label {
+    width: auto
+  }
+
+  .form-line .form-radio-item .form-radio-other.form-textbox+label, .form-line .form-checkbox-item .form-checkbox-other.form-textbox+label {
+    display: none !important
+  }
+
+  .form-line .form-radio-item:not(#foo) .form-radio-other-input.form-textbox:not([style*="margin-left: 26px"]), .form-line .form-checkbox-item:not(#foo) .form-checkbox-other-input.form-textbox:not([style*="margin-left: 26px"]) {
+    margin-left: 0px
+  }
+
+  .form-line .form-radio-item .form-radio-other.form-textbox+label:not([style="display:block"]), .form-line .form-checkbox-item .form-checkbox-other.form-textbox+label:not([style="display:block"]) {
+    display: none
+  }
+
+  li[data-type="control_datetime"] input.form-textbox {
+    padding: 3px 30px 4px 3px;
+    margin: 0
+  }
+
+  @media screen and (max-width: 600px) {
+    li[data-type="control_datetime"] input.form-textbox {
+      padding: 3px 3px 4px 20px
+    }
+
+    li[data-type="control_datetime"] input.form-textbox[type="tel"] {
+      padding: 3px 3px 4px 10px
+    }
+  }
+
+  li[data-type="control_datetime"] .form-input-wide {
+    position: relative
+  }
+
+  li.form-line-column+li[data-type="control_head"] {
+    display: inline-block;
+    width: 100%
+  }
+
+  li[data-type="control_datetime"] .icon-liteMode {
+    margin-left: 5px;
+    vertical-align: middle
+  }
+
+  .form-submit-button, .form-submit-reset, .form-submit-print, .form-screen-button {
+    margin: 0px;
+    overflow: visible;
+    padding: 1px 6px;
+    width: auto
+  }
+
+  .form-submit-button::-moz-focus-inner, .form-submit-reset::-moz-focus-inner {
+    border: 0px;
+    padding: 1px 6px
+  }
+
+  .form-submit-button.conditionallyDisabled {
+    opacity: 0.4;
+    cursor: default;
+    pointer-events: none
+  }
+
+  .form-button-red {
+    border: 1px solid red
+  }
+
+  .form-button-magenta {
+    border: 1px solid magenta
+  }
+
+  .form-header {
+    margin: 0px
+  }
+
+  .httal {
+    text-align: left
+  }
+
+  .httac {
+    text-align: center
+  }
+
+  .httar {
+    text-align: right
+  }
+
+  .htvat {
+    vertical-align: top
+  }
+
+  .htvam {
+    vertical-align: middle
+  }
+
+  .htvab {
+    vertical-align: bottom
+  }
+
+  .form-line .form-label.form-label-top.form-label-auto {
+    width: auto
+  }
+
+  .form-label-top {
+    margin-bottom: 6px;
+    display: block;
+    white-space: normal
+  }
+
+  .form-label-left {
+    float: left;
+    display: inline-block;
+    text-align: left;
+    padding: 3px;
+    white-space: normal;
+    word-break: break-word
+  }
+
+  .form-label-right {
+    float: left;
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 6px;
+    padding: 3px;
+    white-space: normal;
+    word-break: break-word
+  }
+
+  .form-label-right+.form-input, .form-label-left+.form-input {
+    display: inline-block
+  }
+
+  .form-section, .form-section-closed {
+    list-style: none;
+    list-style-position: outside;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    zoom: 1;
+    clear: both
+  }
+
+  .form-section-closed {
+    overflow: hidden;
+    height: 60px
+  }
+
+  .form-line {
+    clear: both;
+    padding: 10px;
+    margin: 0px;
+    display: block;
+    width: 97%;
+    width: -moz-available;
+    position: relative
+  }
+
+  .form-line[data-type="control_button"][paypal-button-status="hide"] .form-submit-button {
+    display: inherit
+  }
+
+  .form-line[data-type="control_button"][paypal-button-status="hide"] .paypal-buttons {
+    display: none !important
+  }
+
+  .form-line[data-type="control_button"][paypal-button-status="show"] .form-submit-button:not(.form-sacl-button) {
+    display: none !important
+  }
+
+  .form-line[data-type="control_button"][paypal-button-status="show"] .paypal-buttons {
+    display: block !important
+  }
+
+  li[data-type="control_checkbox"], [data-type="control_radio"] {
+    display: inline-block
+  }
+
+  .form-line-column {
+    float: left;
+    clear: none;
+    width: auto
+  }
+
+  .form-all {
+    font-size: 14px;
+    color: #000;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+    background-repeat: no-repeat;
+  }
+
+  .form-line {
+    /* Don't conver these into shorthand */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin: 6px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .form-label-top,
+  .form-label-left,
+  .form-label-right {
+    font-weight: bold;
+    margin-bottom: 9px;
+  }
+
+  .form-label-right {
+    margin-right: 0;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+
+  .form-all .form-upload {
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .form-sub-label {
+    font-size: 0.786em;
+    /*11px*/
+    margin-top: 3px;
+  }

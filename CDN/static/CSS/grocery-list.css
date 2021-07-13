@@ -1,0 +1,733 @@
+    .form-label-left {
+        width: 150px;
+    }
+
+    .form-line {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .form-label-right {
+        width: 150px;
+    }
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        background: #fff;
+    }
+
+    .form-all {
+        margin: 0px auto;
+        padding-top: 0px;
+        color: #555 !important;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    /* Injected CSS Code */
+    .form-label.form-label-auto {
+        display: block;
+        float: none;
+        text-align: left;
+        width: inherit;
+    }
+
+    form-all:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .form-all {
+        font-family: "Lucida Grande", sans-serif;
+    }
+
+    .form-all {
+        font-size: 14px;
+    }
+
+    .supernova {
+        background-color: #ffffff;
+        background-color: #f5f5f5;
+    }
+
+    .supernova body {
+        background-color: transparent;
+    }
+
+    /*
+@width30: (unit(@formWidth, px) + 60px);
+@width60: (unit(@formWidth, px)+ 120px);
+@width90: (unit(@formWidth, px)+ 180px);
+*/
+    /* | */
+    @media screen and (min-widtfh: 480px) {
+        .supernova .form-all {
+            border: 1px solid #dcdcdc;
+            -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
+            -moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    .jotform-form .form-all {
+        margin: 0;
+        width: 100%;
+    }
+
+    /* | */
+    /* | */
+    @media screen and (min-width: 480px) and (max-width: 689px) {
+        .jotform-form .form-all {
+            margin: 0;
+            width: 100%;
+        }
+    }
+
+    /* | */
+    /* | */
+    @media screen and (min-width: 768px) {
+        .jotform-form {
+            padding: 60px 0;
+        }
+    }
+
+    /* | */
+    /* | */
+    @media screen and (max-width: 689px) {
+        .jotform-form .form-all {
+            margin: 0;
+            width: 100%;
+        }
+    }
+
+    /* | */
+    .supernova .form-all,
+    .form-all {
+        background-color: #ffffff;
+        border: 1px solid transparent;
+    }
+
+    .form-header-group {
+        border-color: #e6e6e6;
+    }
+
+    .form-all {
+        width: 690px;
+    }
+
+    .form-label-left,
+    .form-label-right {
+        width: 150px;
+    }
+
+    .form-label {
+        white-space: normal;
+    }
+
+    .form-all {
+        color: #555555;
+    }
+
+    .form-header-group .form-header {
+        color: #555555;
+    }
+
+    .form-header-group .form-subHeader {
+        color: #6f6f6f;
+    }
+
+    .form-line.form-line-active {
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -ms-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.3s;
+        -moz-transition-duration: 0.3s;
+        -ms-transition-duration: 0.3s;
+        -o-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -ms-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease;
+        background-color: #ffffe0;
+    }
+
+    .supernova {
+        height: 100%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center top;
+        background-repeat: repeat;
+    }
+
+    .supernova {
+        background-image: none;
+    }
+
+    /* | */
+    .form-all {
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center top;
+        background-repeat: repeat;
+    }
+
+    .form-header-group {
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center top;
+    }
+
+    .form-line {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .form-line {
+        padding: 12px 36px;
+    }
+
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+        font-size: 1em;
+        padding: 9px 15px;
+        font-family: "Lucida Grande", sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .form-all .form-pagebreak-back,
+    .form-all .form-pagebreak-next {
+        font-size: 1em;
+        padding: 9px 15px;
+        font-family: "Lucida Grande", sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    /*
+& when ( @buttonFontType = google ) {
+   @import (css) "@{buttonFontLink}";
+}
+*/
+    h2.form-header {
+        line-height: 1.618em;
+        font-size: 1.714em;
+    }
+
+    .form-header-group {
+        text-align: left;
+    }
+
+    .form-header-group {
+        font-family: "Lucida Grande", sans-serif;
+    }
+
+    .form-section {
+        padding: 0px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .form-header-group {
+        margin: 12px 36px 12px 36px;
+    }
+
+    .form-header-group {
+        padding: 24px 0px 24px 0px;
+    }
+
+    li[data-type="control_image"] div {
+        text-align: left;
+    }
+
+    li[data-type="control_image"] img {
+        border: none;
+        border-width: 0px !important;
+        border-style: solid !important;
+        border-color: false !important;
+    }
+
+    .form-all {
+        border: 0;
+        max-width: initial;
+    }
+
+    .form-submit-button,
+    .form-submit-print,
+    .form-submit-reset {
+        width: 100%;
+        margin-left: 0 !important;
+    }
+
+    .form-input {
+        width: 100%;
+    }
+
+    .form-label {
+        width: 100% !important;
+    }
+
+    .form-label-left,
+    .form-label-right {
+        display: block;
+        float: none;
+        text-align: left;
+        width: auto !important;
+    }
+
+    .form-line,
+    .form-line.form-line-column {
+        padding: 2% 5%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    input[type=text],
+    input[type=email],
+    input[type=tel],
+    textarea {
+        width: 100%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        max-width: initial !important;
+    }
+
+    .form-dropdown,
+    .form-textarea,
+    .form-textbox {
+        width: 100% !important;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .form-input,
+    .form-input-wide,
+    .form-textarea,
+    .form-textbox,
+    .form-dropdown {
+        max-width: initial !important;
+    }
+
+    div.form-header-group {
+        padding: 24px 0px !important;
+        margin: 0 12px 2% !important;
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .form-buttons-wrapper {
+        margin: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .form-buttons-wrapper button {
+        width: 100%;
+    }
+
+    .form-buttons-wrapper .form-submit-print {
+        margin: 0 !important;
+    }
+
+    .form-all {
+        font-size: 14px;
+        color: #000;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+        background-repeat: no-repeat;
+    }
+
+    .form-line {
+        /* Don't conver these into shorthand */
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 36px;
+        padding-right: 36px;
+        margin: 6px 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .form-header-group {
+        background: transparent;
+        /* For overriding */
+        border: none;
+        /* For overriding */
+        padding: 24px 0;
+        margin: 12px 36px 18px;
+        border-bottom: 1px solid #e3e3e3;
+        border-top: 1px solid #e3e3e3;
+    }
+
+    li:first-child .form-header-group,
+    .form-header-group+.form-header-group {
+        border-top: 0;
+    }
+
+    h1.form-header {
+        font-size: 2.143em;
+        /*30px*/
+    }
+
+    h2.form-header {
+        font-size: 1.714em;
+        /*24px*/
+    }
+
+    h3.form-header {
+        font-size: 1.5em;
+        /*21px*/
+    }
+
+    .jf-form-buttons,
+    .qq-upload-button {
+        border: 1px solid #ccc;
+        padding: 6px 12px;
+        color: #666;
+        text-shadow: 0 1px #fff;
+        cursor: pointer;
+        border-radius: 3px;
+        box-shadow: 0px 1px 1px 0px rgba(221, 221, 221, 1);
+        background: #f5f5f5;
+        /* Old browsers */
+        background: linear-gradient(to top, #f5f5f5 0%, #eeeeee 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee', GradientType=0);
+        /* IE6-9 */
+    }
+
+    .jf-form-buttons:hover,
+    .qq-upload-button:hover {
+        background: #ffffff;
+        background: linear-gradient(to top, #ffffff 0%, #f5f5f5 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0);
+    }
+
+    .jf-form-buttons:active,
+    .qq-upload-button:active {
+        background: #eeeeee;
+        background: linear-gradient(to top, #eeeeee 0%, #f5f5f5 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#f5f5f5', GradientType=0);
+    }
+
+    .form-buttons-wrapper {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .form-all {
+        list-style: none;
+        list-style-position: outside;
+        margin: 0px;
+        font-family: Verdana;
+        font-size: 12px
+    }
+
+    .form-buttons-right {
+        text-align: right
+    }
+
+    .form-buttons-left {
+        text-align: left
+    }
+
+    .form-buttons-center {
+        text-align: center
+    }
+
+    .form-buttons-auto {
+        margin-left: 156px
+    }
+
+    .form-submit-button,
+    .form-submit-reset,
+    .form-submit-print,
+    .form-screen-button {
+        margin: 0px;
+        overflow: visible;
+        padding: 1px 6px;
+        width: auto
+    }
+
+    .form-submit-button::-moz-focus-inner,
+    .form-submit-reset::-moz-focus-inner {
+        border: 0px;
+        padding: 1px 6px
+    }
+
+    .form-submit-button.conditionallyDisabled {
+        opacity: 0.4;
+        cursor: default;
+        pointer-events: none
+    }
+
+    .httal {
+        text-align: left
+    }
+
+    .httac {
+        text-align: center
+    }
+
+    .httar {
+        text-align: right
+    }
+
+    .htvat {
+        vertical-align: top
+    }
+
+    .htvam {
+        vertical-align: middle
+    }
+
+    .htvab {
+        vertical-align: bottom
+    }
+
+    .form-line .form-label.form-label-top.form-label-auto {
+        width: 100%;
+    }
+
+    .form-section,
+    .form-section-closed {
+        list-style: none;
+        list-style-position: outside;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        zoom: 1;
+        clear: both
+    }
+
+    .form-required {
+        margin-left: 5px;
+        color: red
+    }
+
+    .form-input .form-error-message,
+    .form-input-wide .form-error-message {
+        bottom: -5px;
+        font-size: 11px;
+        position: relative;
+        z-index: 900;
+        right: auto;
+        top: auto;
+        color: #333;
+        padding: 3px;
+        max-width: 100%;
+        padding-bottom: 3px;
+        font-size: 12px;
+        border: none;
+        box-shadow: 0px 2px 4px rgba(102, 102, 102, 0.5);
+        border-radius: 6px 6px;
+        background: #FCC
+    }
+
+    .form-label-left {
+        width: 150px;
+    }
+
+    .form-line {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .form-label-right {
+        width: 150px;
+    }
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        background: #fff;
+    }
+
+    .header-css {
+        height: 40%;
+        background: #065446;
+    }
+
+    .white {
+        color: #f1f1e8
+    }
+
+    .form-all {
+        margin: 0px auto;
+        padding-top: 0px;
+        width: 690px;
+        color: #555 !important;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+        font-size: 14px;
+    }
+    
+
+    /* Injected CSS Code */
+    .form-label.form-label-auto {
+        display: block;
+        float: none;
+        text-align: left;
+        width: inherit;
+    }
+
+    .error {
+        background-color: #f71302;
+        height: 10%;
+        width: inherit;
+        text-align: center;
+    }
+
+    .success {
+        background-color: #065446;
+        height: 10%;
+        width: inherit;
+        text-align: center;
+    }
+
+    .removed {
+        background-color: #f78d02;
+        height: 10%;
+        width: inherit;
+        text-align: center;
+    }
+
+    .added {
+        background-color: #2bf702;
+        height: 10%;
+        width: inherit;
+        text-align: center;
+    }
+
+    .box {
+        width: 250px;
+    }
+
+    .box.large {
+        height: 300px;
+    }
+
+    .box.small {
+        height: 100px;
+    }
+
+    /*__INSPECT_SEPERATOR__*/
+    /* Injected CSS Code */
+
+    /* Style the list items */
+    ul li {
+        cursor: pointer;
+        position: relative;
+        padding: 12px 8px 12px 40px;
+        list-style-type: none;
+        background: #eee;
+        font-size: 18px;
+        transition: 0.2s;
+
+        /* make the list items unselectable */
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    /* Set all odd list items to a different color (zebra-stripes) */
+    ul li:nth-child(odd) {
+        background: #f9f9f9;
+    }
+
+    /* Darker background-color on hover */
+    ul li:hover {
+        background: #ddd;
+    }
+
+    /* When clicked on, add a background color and strike out text */
+    ul li.checked {
+        background: #888;
+        color: #fff;
+        text-decoration: line-through;
+    }
+
+    /* Add a "checked" mark when clicked on */
+    ul li.checked::before {
+        content: '';
+        position: absolute;
+        border-color: #fff;
+        border-style: solid;
+        border-width: 0 2px 2px 0;
+        top: 10px;
+        left: 16px;
+        transform: rotate(45deg);
+        height: 15px;
+        width: 7px;
+    }
+
+    /* Style the close button */
+    .close {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 12px 16px 12px 16px;
+    }
+
+    .close:hover {
+        background-color: #f71302;
+        color: white;
+    }
+
+    /* Style the header */
+
+
+    /* Clear floats after the header */
+    .header:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Style the input */
+    input {
+        margin: 5;
+        border: none;
+        border-radius: 0;
+        width: 75%;
+        padding: 10px;
+        float: none;
+        font-size: 16px;
+    }
+
+    /* Style the "Add" button */
+    .addBtn {
+        padding: 10px;
+        width: 25%;
+        background: #d9d9d9;
+        color: #555;
+        float: left;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 0;
+    }
+
+    .test {
+        position: relative;
+        width: 94%;
+    }
+
+    .addBtn:hover {
+        background-color: #bbb;
+    }
