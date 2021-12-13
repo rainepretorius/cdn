@@ -34,6 +34,11 @@ Allow: /CDN/Images/minette-art/33.jpg
 Allow: /CDN/Images/minette-art/34.jpg
 Allow: /CDN/Images/minette-art/35.jpg
 
+
+Allow: /CDN/Images/raine.
+
+Allow: /CDN/Images/liam.jpg
+
 disallow: /
 disallow: /*
 
