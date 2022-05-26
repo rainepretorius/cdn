@@ -40,14 +40,3 @@ Allow: /CDN/Images/minette-art/37.jpg
 Allow: /CDN/Images/raine.jpg
 
 Allow: /CDN/Images/liam.jpg
-
-disallow: /
-disallow: /*
-
-disallow: /CDN
-disallow: /CDN/
-disallow: /CDN/*
-
-disallow: /Hasies
-disallow: /Hasies/
-disallow: /Hasies/*
